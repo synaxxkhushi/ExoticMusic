@@ -13,10 +13,10 @@ async def check_ccbin(client, message):
         await message.delete()
     except:
         pass
-    aux = await message.reply_text("<b>Checking ...</b>")
+    aux = await message.reply_text("<b>𝘾𝙃𝙀𝘾𝙆𝙄𝙉𝙂●○●○●</b>")
     bin = message.text.split(None, 1)[1]
     if len(bin) < 6:
-        return await aux.edit("<b>❌ Wrong Bin❗...</b>")
+        return await aux.edit("<b>❌ 𝙒𝙍𝙊𝙉𝙂 𝘽𝙄𝙉❗...</b>")
     try:
         resp = await api.bininfo(bin)
         await aux.edit(f"""
